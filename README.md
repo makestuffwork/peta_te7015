@@ -50,7 +50,7 @@ Create a folder /tftpboot this should match whatever you gave in server_args. Mo
 
 #### Testing
 
-![Testboard Setup Photo:](https://drive.google.com/file/d/1QgnhWtieROUF3AMPLD7OoC0lsCBvR5Rs/view?usp=sharing)
+![Testboard Setup Photo:](https://drive.google.com/uc?id=1QgnhWtieROUF3AMPLD7OoC0lsCBvR5Rs)
 
 Start UART terminal:
 
