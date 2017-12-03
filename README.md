@@ -1,7 +1,7 @@
 ﻿This project currently boots petalinux on the TE7015+TE0706 demo board.
 It also comes with an app, gpioled that blinks the LED.
 
-####Install PetaLinux
+#### Install PetaLinux
 
 Download and install [PetaLinux from Xilinx](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2017-2.html): [PetaLinux 2017.2 Installer](https://www.xilinx.com/member/forms/download/xef.html?filename=petalinux-v2017.2-final-installer.run&akdm=1)
 The following commands assume you start from this project directory.
@@ -21,7 +21,7 @@ The following commands assume you start from this project directory.
 Optionally, you can add the TE7015 reference design under this project:
 Download and install [TE7015 Reference Design](http://www.trenz-electronic.de/fileadmin/docs/Trenz_Electronic/TE0715/Reference_Design/2017.2/test_board/te0715-test_board-vivado_2017.2-build_05_20171110134232.zip) from [Trenz Electronic](https://shop.trenz-electronic.de/en/Download/?path=Trenz_Electronic/TE0715/Reference_Design/2017.2/test_board)
 
-####Set up TFTP
+#### Set up TFTP
 
 	sudo apt-get install xinetd tftpd tftp
 
@@ -48,7 +48,7 @@ Create a folder /tftpboot this should match whatever you gave in server_args. Mo
 	\cp -fv $petaproj/images/linux/image.ub /tftpboot/
 
 
-####Testing
+#### Testing
 
 ![Testboard Setup Photo:](https://drive.google.com/file/d/1QgnhWtieROUF3AMPLD7OoC0lsCBvR5Rs/view?usp=sharing)
 
@@ -75,7 +75,7 @@ Or, package SD images and boot from SD:
 
 The green LED should be blinking.
 
-####Create the gpioled app
+#### Create the gpioled app
 
 This is already committed.
 
