@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2017.2.1 (64-bit)                   -->
+<!--                                                              -->
+<!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z015_1" gui_info="dashboard1=hw_vios[xc7z015_1/hw_vio_1=VIO_PROBES_1;],dashboard2=dashboard_1[xc7z015_1/hw_vio_1=VIO_PROBES_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z015_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/$_project_name__wrapper.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/$_project_name__wrapper.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/$_project_name__wrapper.bit"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="zsys_i/fm_fclk125[31:0]" gui_info="hw_vios/hw_vio_1=1"/>
+    <Object name="zsys_i/fm_mgt1[31:0]" gui_info="hw_vios/hw_vio_1=2"/>
+    <Object name="zsys_i/labtools_fmeter_0_update" gui_info="hw_vios/hw_vio_1=0"/>
+    <Object name="zsys_i/vio_0_probe_out0" gui_info="hw_vios/hw_vio_1=3"/>
+    <Object name="zsys_i/vio_0_probe_out0[7:0]" gui_info="hw_vios/hw_vio_1=3"/>
+  </ObjectList>
+  <ObjectList object_type="hw_vio" gui_info="">
+    <Object name="hw_vio_1" gui_info="hw_vios/hw_vio_1/TablePreference=5	701	Name	0	2147483647	15	251	251	Value	1	2147483647	15	227	227	Activity	2	2147483647	15	70	70	Direction	3	2147483647	15	83	83	VIO	4	2147483647	15	70	70			1	6	1	Name	Value	Activity	Direction	VIO"/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="zsys_i/fm_fclk125[31]"/>
+        <net name="zsys_i/fm_fclk125[30]"/>
+        <net name="zsys_i/fm_fclk125[29]"/>
+        <net name="zsys_i/fm_fclk125[28]"/>
+        <net name="zsys_i/fm_fclk125[27]"/>
+        <net name="zsys_i/fm_fclk125[26]"/>
+        <net name="zsys_i/fm_fclk125[25]"/>
+        <net name="zsys_i/fm_fclk125[24]"/>
+        <net name="zsys_i/fm_fclk125[23]"/>
+        <net name="zsys_i/fm_fclk125[22]"/>
+        <net name="zsys_i/fm_fclk125[21]"/>
+        <net name="zsys_i/fm_fclk125[20]"/>
+        <net name="zsys_i/fm_fclk125[19]"/>
+        <net name="zsys_i/fm_fclk125[18]"/>
+        <net name="zsys_i/fm_fclk125[17]"/>
+        <net name="zsys_i/fm_fclk125[16]"/>
+        <net name="zsys_i/fm_fclk125[15]"/>
+        <net name="zsys_i/fm_fclk125[14]"/>
+        <net name="zsys_i/fm_fclk125[13]"/>
+        <net name="zsys_i/fm_fclk125[12]"/>
+        <net name="zsys_i/fm_fclk125[11]"/>
+        <net name="zsys_i/fm_fclk125[10]"/>
+        <net name="zsys_i/fm_fclk125[9]"/>
+        <net name="zsys_i/fm_fclk125[8]"/>
+        <net name="zsys_i/fm_fclk125[7]"/>
+        <net name="zsys_i/fm_fclk125[6]"/>
+        <net name="zsys_i/fm_fclk125[5]"/>
+        <net name="zsys_i/fm_fclk125[4]"/>
+        <net name="zsys_i/fm_fclk125[3]"/>
+        <net name="zsys_i/fm_fclk125[2]"/>
+        <net name="zsys_i/fm_fclk125[1]"/>
+        <net name="zsys_i/fm_fclk125[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="UNSIGNED"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="zsys_i/fm_mgt1[31]"/>
+        <net name="zsys_i/fm_mgt1[30]"/>
+        <net name="zsys_i/fm_mgt1[29]"/>
+        <net name="zsys_i/fm_mgt1[28]"/>
+        <net name="zsys_i/fm_mgt1[27]"/>
+        <net name="zsys_i/fm_mgt1[26]"/>
+        <net name="zsys_i/fm_mgt1[25]"/>
+        <net name="zsys_i/fm_mgt1[24]"/>
+        <net name="zsys_i/fm_mgt1[23]"/>
+        <net name="zsys_i/fm_mgt1[22]"/>
+        <net name="zsys_i/fm_mgt1[21]"/>
+        <net name="zsys_i/fm_mgt1[20]"/>
+        <net name="zsys_i/fm_mgt1[19]"/>
+        <net name="zsys_i/fm_mgt1[18]"/>
+        <net name="zsys_i/fm_mgt1[17]"/>
+        <net name="zsys_i/fm_mgt1[16]"/>
+        <net name="zsys_i/fm_mgt1[15]"/>
+        <net name="zsys_i/fm_mgt1[14]"/>
+        <net name="zsys_i/fm_mgt1[13]"/>
+        <net name="zsys_i/fm_mgt1[12]"/>
+        <net name="zsys_i/fm_mgt1[11]"/>
+        <net name="zsys_i/fm_mgt1[10]"/>
+        <net name="zsys_i/fm_mgt1[9]"/>
+        <net name="zsys_i/fm_mgt1[8]"/>
+        <net name="zsys_i/fm_mgt1[7]"/>
+        <net name="zsys_i/fm_mgt1[6]"/>
+        <net name="zsys_i/fm_mgt1[5]"/>
+        <net name="zsys_i/fm_mgt1[4]"/>
+        <net name="zsys_i/fm_mgt1[3]"/>
+        <net name="zsys_i/fm_mgt1[2]"/>
+        <net name="zsys_i/fm_mgt1[1]"/>
+        <net name="zsys_i/fm_mgt1[0]"/>
+      </nets>
+    </probe>
+    <probe type="vio_input" busType="net" source="netlist" spec="VIO_INPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="ACTIVITY_PERSISTENCE" value="SHORT"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="INPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="zsys_i/labtools_fmeter_0_update"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="0"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="BINARY"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="zsys_i/vio_0_probe_out0"/>
+      </nets>
+    </probe>
+    <probe type="vio_output" busType="net" source="netlist" spec="VIO_OUTPUT_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_VIO" value="hw_vio_1"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="OUTPUT_VALUE" value="01"/>
+        <Option Id="OUTPUT_VALUE_RADIX" value="HEX"/>
+        <Option Id="SOURCE" value="netlist"/>
+      </probeOptions>
+      <nets>
+        <net name="zsys_i/vio_0_probe_out0[7]"/>
+        <net name="zsys_i/vio_0_probe_out0[6]"/>
+        <net name="zsys_i/vio_0_probe_out0[5]"/>
+        <net name="zsys_i/vio_0_probe_out0[4]"/>
+        <net name="zsys_i/vio_0_probe_out0[3]"/>
+        <net name="zsys_i/vio_0_probe_out0[2]"/>
+        <net name="zsys_i/vio_0_probe_out0[1]"/>
+        <net name="zsys_i/vio_0_probe_out0[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>
